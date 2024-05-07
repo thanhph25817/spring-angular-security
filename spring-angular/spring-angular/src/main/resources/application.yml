@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+    #/ up load file voi kich thuoc duoc khai bao
+  servlet:
+    multipart:
+      max-file-size: 50MB
+springdoc:
+  default-consumes-media-type: application/json
+
+  server:
+    servlet:
+      context-path: /api/v1/
