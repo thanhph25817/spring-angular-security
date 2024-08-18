@@ -14,8 +14,10 @@ public class SpringAngularApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAngularApiApplication.class, args);
 		User usser = new User().email("abce")
+				.dateOfBirth(LocalDate.now())
 				.enable(true);
-		System.out.println(usser);
+		System.out.println("hello abc");
+		System.out.println("hello world");
 	}
 
 }
