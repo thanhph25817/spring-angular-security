@@ -16,6 +16,7 @@ public class SpringAngularApiApplication {
 		User usser = new User().email("abce")
 				.enable(true);
 		System.out.println(usser);
+		System.out.println();
 	}
 
 }
